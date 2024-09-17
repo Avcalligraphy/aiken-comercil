@@ -8,13 +8,31 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        outfit: ["Outfit", "sans-serif"],
+        lora: ["Lora", "serif"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    screens: {
+      navMobile: "1444px",
+      contactLayout: "501px",
+      radarLayout: "400px",
+      csssm: "380px",
+      cssm: "480px",
+      csm: "640px",
+      cmd: "768px",
+      clg: "1024px",
+      cxl: "1280px",
+      cxxl: "1536px",
+      cllxl: "1680px",
+      clxl: "1735px",
+    },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
 export default config;
