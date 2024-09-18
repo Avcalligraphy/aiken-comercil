@@ -2,22 +2,18 @@ import Footer from "../home/Footer";
 import BoxBlog from "../molecules/BoxBlog";
 import Navbar from "../navbar";
 
-
+const apiURL = process.env.NEXT_PUBLIC_API_URL;
 // Async function to fetch blogs from API
 async function getBlogs() {
-  const res = await fetch(
-    "https://5hfc9f1g-1337.asse.devtunnels.ms/api/blogs?populate=*",
-    {
-      cache: "no-store",
-    }
-  );
+  const res = await fetch(`${apiURL}/api/blogs?populate=*`, {
+    cache: "no-store",
+  });
   if (!res.ok) {
     throw new Error("Failed to fetch blogs");
   }
   const data = await res.json();
   return data.data; // Return the data array
 }
-const apiURL = "https://5hfc9f1g-1337.asse.devtunnels.ms";
 
 // Komponen utama Blog
 export default async function Blog() {
@@ -37,7 +33,7 @@ export default async function Blog() {
               key={blog.id}
                 id={blog.id}
                 title={blog.attributes.title}
-                date={blog.attributes.publishedAt}
+                date={blog.attributes.date}
                 image={apiURL + blog.attributes.image.data.attributes.url}
                 writter={blog.attributes.writter}
               />

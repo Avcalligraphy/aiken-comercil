@@ -26,6 +26,7 @@ const config: Config = {
       cssm: "480px",
       csm: "640px",
       cmd: "768px",
+      cmmd: "842px",
       clg: "1024px",
       cxl: "1280px",
       cxxl: "1536px",

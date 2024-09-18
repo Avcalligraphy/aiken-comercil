@@ -1,24 +1,24 @@
 const MenuListUser = [
   {
-    name: "About Us",
-    link: "/about-us",
+    name: "Home",
+    link: "/",
   },
   {
     name: "Features",
-    link: "#features",
+    link: "/#features",
   },
   {
     name: "Reviews",
-    link: "#reviews",
+    link: "/#reviews",
   },
   {
     name: "Pricing",
-    link: "#pricing",
+    link: "/#pricing",
   },
-  // {
-  //   name: "Aiken Blog",
-  //   link: "/blog",
-  // },
+  {
+    name: "Aiken Blog",
+    link: "/blog",
+  },
 ];
 
 export default MenuListUser;

@@ -6,27 +6,34 @@ export default function Pricing() {
   return (
     <section id="pricing" className="flex flex-col items-center mb-[300px] ">
       <h1
-        data-aos="zoom-in-up"
+        // data-aos="zoom-in-up"
         data-aos-anchor-placement="top-bottom"
-        className="text-[54px] text-center leading-[56px] font-bold "
+        className="cmd:text-[54px] csm:text-3xl text-2xl leading-tight font-bold  text-center max-w-[549px] "
       >
-        An affordable path to a <br /> better you
+        An affordable path to a better you
       </h1>
       <p
         data-aos="zoom-in-up"
         data-aos-anchor-placement="top-bottom"
-        className="text-[#5A5A5A] text-[20px] text-center mt-[17px] "
+        className="text-center text-[#5A5A5A] text-base cmd:text-lg clg:text-[20.5px] mt-4 cmd:mt-[33px] max-w-[690px] "
       >
         Aiken is free to use. When you're ready to make the full commitment to
-        your <br /> personal growth, Aiken Bloom is the way to go.
+        your personal growth, Aiken Bloom is the way to go.
       </p>
       <div
         data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom"
-        className="flex flex-row gap-[24px] mt-[85px] "
+        className="flex cmd:flex-row flex-col items-center gap-[24px] mt-[85px] "
       >
-        <BoxPricing active={false} />
-        <BoxPricing />
+        <BoxPricing
+          active={false}
+          price="220.000"
+          title="Book"
+        />
+        <BoxPricing
+          price="299.000"
+          title="Book + (App Premium Account for 3 months)"
+        />
       </div>
     </section>
   );

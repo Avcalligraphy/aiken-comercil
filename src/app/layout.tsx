@@ -6,8 +6,24 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aiken",
-  description: "Interactive therapeutic media to improve adolescent mental health",
+  metadataBase: new URL("https://aknehealth.id"),
+  title: {
+    default:
+      "Aiken - Best Mental Therapy with Apps & Books | Feel Better in Minutes",
+    template:
+      "%s - Best Mental Therapy with Apps & Books | Feel Better in Minutes",
+  },
+  description:
+    "Interactive therapeutic media to improve adolescent mental health | Feel Better in Minutes",
+  twitter: {
+    card: "summary_large_image",
+  },
+  openGraph: {
+    title: "AIKEN",
+    description:
+      "Best Mental Therapy with Apps & Books | Feel Better in Minute",
+    images: "/opengraph-image.png",
+  },
 };
 
 export default function RootLayout({

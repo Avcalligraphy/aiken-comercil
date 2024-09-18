@@ -7,32 +7,32 @@ import Button from "../molecules/Button";
 export default function OurTheraphy() {
   const cardData = [
     {
-      name: "Raelen Agle",
-      title: "Nervous System Rebalancing",
+      name: "Novvaliant Filsuf",
+      title: "Clinical Psychology",
       bgColor: "bg-gray-100",
       image: "photoTheraphy1",
     },
     {
-      name: "Micha Tomoff",
-      title: "Positive Psychology",
+      name: "Dian Sari",
+      title: "Developmental Psychology",
       bgColor: "bg-blue-100",
       image: "photoTheraphy2",
     },
     {
-      name: "Dr. Christine Cielo",
-      title: "Acceptance & Commitment",
+      name: "Qurotul Uyun",
+      title: "Social Psychology",
       bgColor: "bg-orange-100",
       image: "photoTheraphy3",
     },
     {
-      name: "David Coates",
-      title: "Internal Family Systems",
+      name: "Ahmad Rusdi",
+      title: "Family and Marriage Psychology",
       bgColor: "bg-purple-100",
       image: "photoTheraphy4",
     },
     {
-      name: "Andrew Horn",
-      title: "My Father and Me",
+      name: "Sonny Andrianto",
+      title: "Health Psychology",
       bgColor: "bg-teal-100",
       image: "photoTheraphy5",
     },
@@ -69,14 +69,12 @@ export default function OurTheraphy() {
     <div className="flex flex-col items-center mt-[300px]">
       <h1
         data-aos="fade-up"
-        className="font-bold text-4xl text-center leading-tight mb-32"
+        className="font-bold cmd:text-4xl csm:text-3xl text-2xl leading-tight cmd:mb-32 csm:mb-28 mb-16 max-w-[603px] text-center "
       >
-        Built with therapists and coaches.
-        <br />
-        Designed for positive change.
+        Built with therapists and coaches. Designed for positive change.
       </h1>
       <div className="flex justify-center  ">
-        <div className="flex space-x-6 px-4">
+        <div className="cxl:flex hidden space-x-6 px-4">
           {cardData.map((card, index) => (
             <Card
               key={index}
@@ -94,11 +92,23 @@ export default function OurTheraphy() {
             />
           ))}
         </div>
+        <div className="cxl:hidden grid cmmd:grid-cols-4 csm:grid-cols-3 cssm:grid-cols-2 grid-cols-1 gap-[15px]">
+          {cardData.map((card, index) => (
+            <Card
+              key={index}
+              name={card.name}
+              title={card.title}
+              bgColor={card.bgColor}
+              image={card.image}
+              className={``}
+            />
+          ))}
+        </div>
       </div>
       <h1
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
-        className="font-semibold text-[28px] leading-[48px] mt-[96px] "
+        className="font-semibold cmd:text-[28px] text-[24px] cmd:leading-[48px] leading-[32px] mt-[96px] text-center cmd:px-0 px-[15px] "
       >
         Users report significant improvements within 7 days
       </h1>
@@ -110,7 +120,7 @@ export default function OurTheraphy() {
         From 30 users surveyed
       </p>
       <div className="flex justify-center">
-        <div className="flex space-x-6 px-4">
+        <div className="cxl:flex hidden space-x-6 px-4">
           {cardDataReport.map((card, index) => (
             <CardReport
               key={index}
@@ -127,6 +137,17 @@ export default function OurTheraphy() {
             />
           ))}
         </div>
+        <div className="cxl:hidden grid cmmd:grid-cols-4 csm:grid-cols-3 cssm:grid-cols-2 grid-cols-1 gap-[15px]">
+          {cardDataReport.map((card, index) => (
+            <CardReport
+              key={index}
+              name={card.name}
+              desc={card.desc}
+              bgColor={card.bgColor}
+              className={``}
+            />
+          ))}
+        </div>
       </div>
       <div
         data-aos="fade-right"
@@ -134,15 +155,20 @@ export default function OurTheraphy() {
         data-aos-easing="ease-in-sine"
         className="mt-[100px] mb-[300px]"
       >
-        <Button
-          text="Try Aiken free"
-          bg="bg-gradient-to-r from-[#F9C623] to-[#A34D39] px-[50px] "
-        />
+        <a
+          href="https://linktr.ee/aikenbook.id?fbclid=PAZXh0bgNhZW0CMTEAAaYFlLZbOhKbc-J2yesQL0JqsLbYY12PBnxzSB0icNNu8NCWo3glqU9ZkCQ_aem_K7GMaWuGC42dbAakE_4ZtA"
+          target="_blank"
+        >
+          <Button
+            text="Try Aiken free"
+            bg="bg-gradient-to-r from-[#F9C623] to-[#A34D39] px-6 cmd:px-[50px]"
+          />
+        </a>
       </div>
-      <div className="bg-[url('/images/bgDeeper.png')] bg-cover h-[600px] flex flex-col items-start justify-center px-[105px]  w-full">
+      <div className="bg-[url('/images/bgDeeper.png')] bg-cover h-[600px] flex flex-col items-start justify-center csm:px-[105px] px-[15px]  w-full">
         <p
           data-aos="fade-up-right"
-          className="font-lora text-white max-w-[496px] text-[28px] leading-[41px] text-justify "
+          className="font-lora text-white max-w-[496px] cmd:text-[28px] text-[20px] cmd:leading-[41px] leading-[30px] csm:mr-[70px] mr-0 text-justify "
         >
           “I've been able to discover deeper insights about myself and find
           paths to solve personal problems that I've had since childhood.”

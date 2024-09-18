@@ -2,15 +2,7 @@
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 
-export default function BoxStories() {
-  const stories = [
-    { src: "/images/stories1.png", height: 210, alt: "stories1" },
-    { src: "/images/stories2.png", height: 399, alt: "stories2" },
-    { src: "/images/stories1.png", height: 210, alt: "stories1" },
-    { src: "/images/stories2.png", height: 399, alt: "stories2" },
-    { src: "/images/stories1.png", height: 210, alt: "stories1" },
-    { src: "/images/stories2.png", height: 399, alt: "stories2" },
-  ];
+export default function BoxStories({stories}:any) {
 
   // Duplicate the stories array by appending the first story again
   const extendedStories = [...stories, stories[0]];

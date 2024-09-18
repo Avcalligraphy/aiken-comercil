@@ -35,14 +35,24 @@ export default function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  const topbarStyle =
+    pathname === "/" || pathname === "/blog"
+      ? { background: topbarBackground, backdropFilter: topBlur }
+      : { background: "rgba(0, 18, 13, 0.5)", backdropFilter: "blur(20px)" };
   return (
     <>
       <div
         className="navMobile:flex hidden justify-between items-center px-[76px] py-[22px]"
-        style={{ background: topbarBackground, backdropFilter: topBlur }}
+        style={topbarStyle}
       >
         <Link href="/">
-          <Image src="/icons/logo.png" width={186} height={78} alt="logo" />
+          <Image
+            src="/icons/logo.png"
+            alt="logo"
+            width={134} // Aspek rasio 186:78 tetap dipertahankan
+            height={40}
+            className="bg-cover object-cover"
+          />
         </Link>
         <div className="flex flex-row clxl:gap-[100px] cllxl:gap-[80px] gap-[80px] ">
           {MenuListUser.map((item, index) => (
@@ -62,7 +72,9 @@ export default function Navbar() {
               </a>
             </div>
           ))}
-          <Button text="Start Free Trial" bg=" bg-[#7A54B7] px-[24px]" />
+          <a href="https://linktr.ee/aikenbook.id?fbclid=PAZXh0bgNhZW0CMTEAAaYFlLZbOhKbc-J2yesQL0JqsLbYY12PBnxzSB0icNNu8NCWo3glqU9ZkCQ_aem_K7GMaWuGC42dbAakE_4ZtA" target="_blank" >
+            <Button text="Start Free Trial" bg=" bg-[#7A54B7] px-[24px]" />
+          </a>
         </div>
       </div>
       <div
@@ -78,10 +90,12 @@ export default function Navbar() {
         >
           <div className="p-4 flex flex-row items-center justify-between">
             <Link href="/">
-              <img
+              <Image
                 src="/icons/logo.png"
                 alt="logo"
-                className="cmd:w-[60px] h-auto w-[55px] "
+                width={134} // Aspek rasio 186:78 tetap dipertahankan
+                height={40}
+                className="bg-cover object-cover"
               />
             </Link>
             <button
