@@ -89,29 +89,31 @@ export default function Header() {
     <>
       <div
         id="#header"
-        className="bg-[url('/images/imageHeader.png')] bg-cover  w-full cmd:min-h-[900px] csm:min-h-[800px] min-h-[600px] "
+        className="bg-[url('/images/imageHeader.png')] bg-cover  w-full cmd:min-h-[900px] csm:min-h-[800px] min-h-[650px] "
       >
         <div className="bg-[url('/images/background.png')] bg-cover w-full cmd:min-h-[700px] csm:min-h-[600px] min-h-[600px] relative z-10">
           <div className="fixed top-0 left-0 right-0 z-50">
             <Navbar />
           </div>
-          <div className=" flex justify-center cmd:pt-[270px] csm:px-[15px] px-[15px] csm:pt-[360px] pt-[180px] items-center ">
+          <div className=" flex justify-center cmd:pt-[270px] csm:px-[15px] px-[15px] csm:pt-[260px] pt-[180px] items-center ">
             <div className="flex justify-center">
               <h1
                 data-aos="fade-right"
-                className="font-bold navMobile:text-[60px] cxl:text-[54px] cmd:text-[48px] csm:text-[40px] text-[30px] csm:leading-[100%] leading-[120%] tracking-[-4%] text-white text-center  max-w-[855px]  "
+                className="font-bold navMobile:text-[60px] cxl:text-[54px] cmd:text-[48px] csm:text-[40px] text-[30px] csm:leading-[100%] leading-[120%] tracking-[-4%] text-white text-center  csm:max-w-[955px] max-w-fit  "
               >
-                "THE BEST THING I'VE DONE FOR MY MENTAL HEALTH"
+                Don't wait any longer. Explore our resources and start your
+                transformation today.
               </h1>
             </div>
           </div>
           <div className="flex justify-center px-[15px]">
             <h1
               data-aos="fade-right"
-              className="text-center csm:mt-[25px] mt-[20px] cmd:text-[20px] csm:text-[16px] text-[14px] text-white max-w-[560px] "
+              className="text-center csm:mt-[25px] mt-[20px] cmd:text-[20px] csm:text-[16px] text-[14px] text-white max-w-[760px] "
             >
-              Feel better in minutes, not months. Aiken's interactive journal
-              complements traditional therapy at a fraction of the cost.
+              Feel the difference in minutes, not months. Aiken's interactive
+              journal is designed to enhance traditional therapy at a fraction
+              of the cost
             </h1>
           </div>
           <div

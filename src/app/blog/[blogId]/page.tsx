@@ -7,6 +7,8 @@ import {
 } from "@strapi/blocks-react-renderer";
 import Head from "next/head";
 
+
+const apiURL = process.env.NEXT_PUBLIC_API_URL;
 // Function to generate dynamic metadata
 const generateMetaData = (
   title: string,
@@ -27,7 +29,6 @@ const generateMetaData = (
 };
 
 // Async function to fetch blogs from API
-const apiURL = "https://5hfc9f1g-1337.asse.devtunnels.ms";
 async function getBlogs(params: string) {
   const res = await fetch(`${apiURL}/api/blogs/${params}?populate=*`, {
     cache: "no-store",
@@ -94,13 +95,6 @@ export default async function BlogId({
 
   return (
     <>
-      <Head>
-        <title>{metaData.title}</title>
-        <meta name="description" content={metaData.description} />
-        <meta property="og:title" content={metaData.title} />
-        <meta property="og:description" content={metaData.description} />
-        <meta property="og:image" content={metaData.openGraph.images[0].url} />
-      </Head>
       <div className="min-h-screen bg-white">
         <div className="w-full pb-[271px] relative z-10">
           <div className="fixed top-0 left-0 right-0 z-50">

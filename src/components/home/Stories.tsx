@@ -10,14 +10,15 @@ export default function Stories(){
           data-aos-anchor-placement="top-center"
           className="cmd:text-[54px] csm:text-3xl text-2xl leading-tight font-bold  text-center "
         >
-          Real stories, real results
+          Genuine Stories, Lasting Results
         </h1>
         <p
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           className="text-center text-[#5A5A5A] text-base cmd:text-lg clg:text-[20.5px] mt-4 cmd:mt-[33px] "
         >
-          See what others like you have experienced on their journey with Aiken
+          Explore how people like you have experienced life-changing progress
+          with Aiken.
         </p>
         <p
           data-aos="fade-up"

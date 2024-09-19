@@ -11,16 +11,16 @@ export default function Features() {
     >
       <h1
         data-aos="fade-up"
-        className="font-bold text-3xl cmd:text-4xl clg:text-[54px] text-black text-center leading-tight cmd:leading-[56px] max-w-[800px] "
+        className="font-bold text-3xl cmd:text-4xl clg:text-[54px] text-black text-center leading-tight cmd:leading-[56px] max-w-[900px] "
       >
-        Your companion for holistic personal growth
+        Your Partner in Transformative Mental Wellness and Growth
       </h1>
       <p
         data-aos="fade-up"
         className="text-center text-[#5A5A5A] text-base cmd:text-lg clg:text-[20.5px] mt-4 cmd:mt-[33px] max-w-[600px]"
       >
-        Aiken combines journaling, habit-building, and emotional support in one
-        integrated platform.
+        Aiken seamlessly blends journaling, habit mastery, and emotional
+        well-being into a unified platform for your growth.
       </p>
       <div
         data-aos="fade-up"
@@ -28,27 +28,27 @@ export default function Features() {
         className="grid grid-cols-1 cmd:grid-cols-2 clg:grid-cols-3 gap-6 mt-8 cmd:mt-16 px-4 cmd:px-6 clxl:px-[300px] cllxl:px-[200px]  cxxl:px-[100px] cxl:px-[50px]"
       >
         <BoxFeatures
-          title="Connect the dots"
-          desc="Aiken remembers and can help you make sense of it all."
+          title="Unravel the Puzzle"
+          desc="Aiken remembers everything, helping you connect the dots and find clarity."
           active
-          titleIcon="Private and secure"
-          descIcon="Your data is encrypted in transit and at rest to protect your privacy."
+          titleIcon="Secure and Private"
+          descIcon="With end-to-end encryption, your data stays protected, whether in transit or at rest."
           photo="1"
         />
         <BoxFeatures
-          title="Build resilience"
-          desc="Manage stress more effectively and improve your relationships."
+          title="Strengthen Your Resilience"
+          desc="Master stress management and enhance your relationships along the way."
           active={false}
-          titleIcon="Speak freely"
-          descIcon="Voice your truth without worrying about burdening others."
+          titleIcon="Express Yourself Freely"
+          descIcon="Share your thoughts openly, without the fear of being a burden."
           photo="2"
         />
         <BoxFeatures
-          title="Place for your Stories"
-          desc="You can write whatever you feel and feel better with our friends"
+          title="Your Space for Stories"
+          desc="Write from the heart and feel the support from friends who truly understand."
           active
-          titleIcon="Reach your goals"
-          descIcon="Identify the right goals for you and remove the obstacles in the way."
+          titleIcon="Achieve Your Aspirations"
+          descIcon="Discover the goals that truly matter and clear the path to success."
           photo="3"
           icons="arrow"
         />
@@ -75,15 +75,15 @@ export default function Features() {
             data-aos="zoom-in-up"
             className="font-semibold cmd:text-[54px] text-[44px] cmd:mb-[112px] mb-[80px] text-white  "
           >
-            Live with clarity.
+            Embrace Clarity.
           </h1>
         </div>
         <p
           data-aos="zoom-in-left"
           className="font-lora text-white max-w-[496px] cmd:text-[28px] text-[20px] cmd:leading-[41px] leading-[30px] text-justify "
         >
-          “I was able to break free from feeling overwhelmed. I have made huge
-          progress in changing habits I've struggled with for many years.”
+          “Breaking free from overwhelm, I’ve made remarkable strides in
+          changing habits that once felt impossible.”
         </p>
         <p
           data-aos="zoom-in-left"

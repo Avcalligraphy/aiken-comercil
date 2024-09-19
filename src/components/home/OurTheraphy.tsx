@@ -71,7 +71,7 @@ export default function OurTheraphy() {
         data-aos="fade-up"
         className="font-bold cmd:text-4xl csm:text-3xl text-2xl leading-tight cmd:mb-32 csm:mb-28 mb-16 max-w-[603px] text-center "
       >
-        Built with therapists and coaches. Designed for positive change.
+        Developed with Experts, Designed for Transformation
       </h1>
       <div className="flex justify-center  ">
         <div className="cxl:flex hidden space-x-6 px-4">
@@ -110,7 +110,7 @@ export default function OurTheraphy() {
         data-aos-anchor-placement="top-bottom"
         className="font-semibold cmd:text-[28px] text-[24px] cmd:leading-[48px] leading-[32px] mt-[96px] text-center cmd:px-0 px-[15px] "
       >
-        Users report significant improvements within 7 days
+        Users report noticeable progress within their first 7 days
       </h1>
       <p
         data-aos="fade-up"
@@ -170,8 +170,8 @@ export default function OurTheraphy() {
           data-aos="fade-up-right"
           className="font-lora text-white max-w-[496px] cmd:text-[28px] text-[20px] cmd:leading-[41px] leading-[30px] csm:mr-[70px] mr-0 text-justify "
         >
-          “I've been able to discover deeper insights about myself and find
-          paths to solve personal problems that I've had since childhood.”
+          “I’ve uncovered deeper insights about myself and found solutions to
+          personal challenges I’ve carried since childhood.”
         </p>
         <p
           data-aos="fade-up-right"

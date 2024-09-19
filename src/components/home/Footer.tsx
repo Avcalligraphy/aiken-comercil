@@ -47,12 +47,12 @@ export default function Footer() {
             Follow Us on
           </p>
           <div className="flex flex-row gap-[16px] ">
-            <a
+            {/* <a
               href="https://www.tiktok.com/@aiken.book?_t=8neBG1Uxi80&_r=1"
               target="_blank"
             >
               <i className=" text-[24px] text-white bx bxl-tiktok"></i>
-            </a>
+            </a> */}
             <a
               href="https://www.instagram.com/aiken.health?igsh=MXZ0dTBzYjQ2ZGF2MQ=="
               target="_blank"
