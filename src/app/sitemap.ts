@@ -5,9 +5,9 @@ const apiURL = process.env.NEXT_PUBLIC_API_URL;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Fetch data dari API blog-reports
-  const response = await fetch(`${apiURL}/api/blogs?populate=*`);
+  const response = await fetch(`${apiURL}/api/blogs`);
   const data = await response.json();
-  console.log(data)
+  console.log("data", data);
 
   // Ambil semua blog reports dan buat URL dinamis berdasarkan id
   const blogUrls = data.data.map((report: any) => ({
