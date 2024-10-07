@@ -177,7 +177,7 @@ export default function OurTheraphy() {
           data-aos="fade-up-right"
           className="text-[18px] mt-[48px] text-white text-left "
         >
-          — Revanshah, Premium Subscriber
+          — Haikal Rivaldi, Premium Subscriber
         </p>
       </div>
     </div>

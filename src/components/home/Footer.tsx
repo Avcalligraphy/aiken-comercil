@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <Image
             src="/icons/logo.png"
-            width={111}
+            width={120}
             height={36}
             alt="logo-aiken"
             className="bg-cover object-cover"
@@ -17,14 +17,14 @@ export default function Footer() {
         <div>
           <div className="flex cssm:flex-row flex-col gap-[30px] cxl:mt-0 mt-8 items-start  ">
             <a
-              href="https://www.instagram.com/aiken.health?igsh=MXZ0dTBzYjQ2ZGF2MQ=="
+              href="https://www.instagram.com/aikenproject/"
               target="_blank"
               className="text-[16px] text-white "
             >
               About us
             </a>
             <a
-              href="https://wa.me/6281213986906"
+              href="https://wa.me/6282322949895"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[16px] text-white "
@@ -47,16 +47,13 @@ export default function Footer() {
             Follow Us on
           </p>
           <div className="flex flex-row gap-[16px] ">
-            {/* <a
+            <a
               href="https://www.tiktok.com/@aiken.book?_t=8neBG1Uxi80&_r=1"
               target="_blank"
             >
               <i className=" text-[24px] text-white bx bxl-tiktok"></i>
-            </a> */}
-            <a
-              href="https://www.instagram.com/aiken.health?igsh=MXZ0dTBzYjQ2ZGF2MQ=="
-              target="_blank"
-            >
+            </a>
+            <a href="https://www.instagram.com/aikenproject/" target="_blank">
               <i className=" text-[24px] text-white bx bxl-instagram"></i>
             </a>
             <a
@@ -64,6 +61,9 @@ export default function Footer() {
               target="_blank"
             >
               <i className=" text-[24px] text-white bx bxl-facebook-circle"></i>
+            </a>
+            <a href="https://www.youtube.com/@AikenProject" target="_blank">
+              <i className=" text-[24px] text-white bx bxl-youtube"></i>
             </a>
           </div>
         </div>

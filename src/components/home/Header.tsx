@@ -37,6 +37,26 @@ const worldWide = [
     width: 67.24,
     height: 41,
   },
+  {
+    name: "labma",
+    width: 67.24,
+    height: 41,
+  },
+  {
+    name: "peka",
+    width: 67.24,
+    height: 41,
+  },
+  {
+    name: "psikolog",
+    width: 67.24,
+    height: 41,
+  },
+  {
+    name: "dpk",
+    width: 67.24,
+    height: 41,
+  },
 ];
 
 const worldWideHidden = [
@@ -67,6 +87,26 @@ const worldWideHidden = [
   },
   {
     name: "mit",
+    width: 83.64,
+    height: 51,
+  },
+  {
+    name: "labma",
+    width: 83.64,
+    height: 51,
+  },
+  {
+    name: "peka",
+    width: 83.64,
+    height: 51,
+  },
+  {
+    name: "psikolog",
+    width: 83.64,
+    height: 51,
+  },
+  {
+    name: "dpk",
     width: 83.64,
     height: 51,
   },
@@ -149,7 +189,7 @@ export default function Header() {
             />
             <div className="backdrop-blur-md bg-white/30 py-[4px] px-[12px] rounded-[27px] ">
               <h1 className="text-[14px] text-white">
-                ⭐ 4.73 ▪️ Trusted by 30 people
+                ⭐ 4.73 ▪️ Trusted by 100+ users
               </h1>
             </div>
           </div>

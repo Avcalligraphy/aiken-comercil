@@ -49,7 +49,7 @@ export default function Navbar() {
           <Image
             src="/icons/logo.png"
             alt="logo"
-            width={134} // Aspek rasio 186:78 tetap dipertahankan
+            width={270} // Aspek rasio 186:78 tetap dipertahankan
             height={40}
             className="bg-cover object-cover"
           />
@@ -93,7 +93,7 @@ export default function Navbar() {
               <Image
                 src="/icons/logo.png"
                 alt="logo"
-                width={134} // Aspek rasio 186:78 tetap dipertahankan
+                width={270} // Aspek rasio 186:78 tetap dipertahankan
                 height={40}
                 className="bg-cover object-cover"
               />

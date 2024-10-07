@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button';
 
-export default function BoxPricing({active = true, title, price}:any) {
+export default function BoxPricing({active = true, li1, li2, li3, price}:any) {
   return (
     <div
       className={` ${
@@ -20,11 +20,19 @@ export default function BoxPricing({active = true, title, price}:any) {
           Rp. {price}
         </h1>
         <div className="flex justify-start px-[25px] ">
-          <ul className="list-outside mt-7 mb-[77px] text-[18px] list-image-[url(/icons/check.png)]  ">
-            <li>{title}</li>
-          </ul>
+          {active ? (
+            <ul className="list-outside mt-7 mb-[77px] text-[18px] list-image-[url(/icons/check.png)]  ">
+              <li>{li1}</li>
+              <li>{li2}</li>
+              <li>{li3}</li>
+            </ul>
+          ) : (
+            <ul className="list-outside mt-7 mb-[77px] text-[18px] list-image-[url(/icons/check.png)]  ">
+              <li>{li1}</li>
+            </ul>
+          )}
         </div>
-        <a href="https://linktr.ee/aikenbook.id" target='_blank' >
+        <a href="https://linktr.ee/aikenbook.id" target="_blank">
           <button
             className={`bg-[#7A54B7] translate-y-0 translate-x-0 hover:translate-y-1 hover:translate-x-1 rounded-[41px] text-white cmd:py-[14px] py-[14px]  text-[18px] mb-6 w-full text-center `}
           >

@@ -89,7 +89,7 @@ export default function Features() {
           data-aos="zoom-in-left"
           className="text-[18px] mt-[48px] text-white text-left "
         >
-          — Azzah Afifah, Premium Subscriber
+          — Annisa Salsabila, Premium Subscriber
         </p>
       </div>
     </section>
