@@ -7,13 +7,13 @@ import Button from "../molecules/Button";
 export default function OurTheraphy() {
   const cardData = [
     {
-      name: "Novvaliant Filsuf",
+      name: "Arief Fahmie",
       title: "Clinical Psychology",
       bgColor: "bg-gray-100",
       image: "photoTheraphy1",
     },
     {
-      name: "Dian Sari",
+      name: "Retno Kumolohadi",
       title: "Developmental Psychology",
       bgColor: "bg-blue-100",
       image: "photoTheraphy2",
@@ -25,13 +25,13 @@ export default function OurTheraphy() {
       image: "photoTheraphy3",
     },
     {
-      name: "Ahmad Rusdi",
+      name: "Indahria Sulistyarini",
       title: "Family and Marriage Psychology",
       bgColor: "bg-purple-100",
       image: "photoTheraphy4",
     },
     {
-      name: "Sonny Andrianto",
+      name: "Hariz Enggar",
       title: "Health Psychology",
       bgColor: "bg-teal-100",
       image: "photoTheraphy5",
@@ -39,28 +39,28 @@ export default function OurTheraphy() {
   ];
   const cardDataReport = [
     {
-      name: "ADHD",
-      desc: "52%",
+      name: "Stress",
+      desc: "82%",
       bgColor: "bg-gray-100",
     },
     {
       name: "Grief",
-      desc: "52%",
+      desc: "71%",
       bgColor: "bg-blue-100",
     },
     {
       name: "Depression",
-      desc: "63%",
+      desc: "94%",
       bgColor: "bg-orange-100",
     },
     {
       name: "Anxiety",
-      desc: "62%",
+      desc: "92%",
       bgColor: "bg-purple-100",
     },
     {
       name: "Anger",
-      desc: "63%",
+      desc: "76%",
       bgColor: "bg-teal-100",
     },
   ];
@@ -117,7 +117,7 @@ export default function OurTheraphy() {
         data-aos-anchor-placement="top-bottom"
         className=" text-[#5A5A5A] text-[16px] leading-[25px] mt-[2px] mb-[75px] "
       >
-        From 30 users surveyed
+        From 70 users surveyed
       </p>
       <div className="flex justify-center">
         <div className="cxl:flex hidden space-x-6 px-4">

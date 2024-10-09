@@ -25,7 +25,7 @@ export default function Stories(){
           data-aos-anchor-placement="top-center"
           className="font-medium text-[14px] mt-[20px] leading-[28px] "
         >
-          ⭐ 4.73  ▪️ Trusted by 100+ users
+          ⭐ 4.93  ▪️ Trusted by 100+ users
         </p>
         <div className=" mt-[64px] flex flex-row justify-center items-center gap-[120px] ">
           <div className="cxl:block hidden">

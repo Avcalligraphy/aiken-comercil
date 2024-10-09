@@ -17,7 +17,7 @@ export default function BoxPricing({active = true, li1, li2, li3, price}:any) {
       </div>
       <div className={`px-[40px] ${active ? "mt-[40px]" : "mt-[60px]"}  `}>
         <h1 className="text-[32px] font-medium text-center mb-[9px] ">
-          Rp. {price}
+          Rp{price}
         </h1>
         <div className="flex justify-start px-[25px] ">
           {active ? (
@@ -36,7 +36,7 @@ export default function BoxPricing({active = true, li1, li2, li3, price}:any) {
           <button
             className={`bg-[#7A54B7] translate-y-0 translate-x-0 hover:translate-y-1 hover:translate-x-1 rounded-[41px] text-white cmd:py-[14px] py-[14px]  text-[18px] mb-6 w-full text-center `}
           >
-            Start Free Trial
+            Join Us
           </button>
         </a>
       </div>

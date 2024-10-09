@@ -189,7 +189,7 @@ export default function Header() {
             />
             <div className="backdrop-blur-md bg-white/30 py-[4px] px-[12px] rounded-[27px] ">
               <h1 className="text-[14px] text-white">
-                ⭐ 4.73 ▪️ Trusted by 100+ users
+                ⭐ 4.93 ▪️ Trusted by 100+ users
               </h1>
             </div>
           </div>
