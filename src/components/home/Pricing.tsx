@@ -26,13 +26,13 @@ export default function Pricing() {
         className="flex clg:flex-row flex-col items-center gap-[24px] mt-[85px] "
       >
         <BoxPricing active={false} price="100.000" li1="Counseling 1x" />
-        <BoxPricing active={false} price="220.000" li1="Journaling Book" />
         <BoxPricing
           price="299.000"
           li1="Journaling Book"
           li2="Premium Account"
           li3="Counseling 1x"
         />
+        <BoxPricing active={false} price="220.000" li1="Journaling Book" />
       </div>
     </section>
   );

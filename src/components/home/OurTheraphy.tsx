@@ -7,31 +7,31 @@ import Button from "../molecules/Button";
 export default function OurTheraphy() {
   const cardData = [
     {
-      name: "Arief Fahmie",
+      name: "Latifatul Laili",
       title: "Clinical Psychology",
       bgColor: "bg-gray-100",
       image: "photoTheraphy1",
     },
     {
-      name: "Retno Kumolohadi",
+      name: "Fani Eka Nurtjahjo",
       title: "Developmental Psychology",
       bgColor: "bg-blue-100",
       image: "photoTheraphy2",
     },
     {
-      name: "Qurotul Uyun",
+      name: "Nur Widiasmara",
       title: "Social Psychology",
       bgColor: "bg-orange-100",
       image: "photoTheraphy3",
     },
     {
-      name: "Indahria Sulistyarini",
+      name: "Nita Trimulyaningsih",
       title: "Family and Marriage Psychology",
       bgColor: "bg-purple-100",
       image: "photoTheraphy4",
     },
     {
-      name: "Hariz Enggar",
+      name: "⁠Dian Febriany Putri.",
       title: "Health Psychology",
       bgColor: "bg-teal-100",
       image: "photoTheraphy5",
